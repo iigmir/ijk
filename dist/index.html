@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Test ijk</title>
+</head>
+<body>
+    <p>Hello World!</p>
+    <p class="foo">The class <code>foo</code>.</p>
+    <div class="array-test">
+        <span>fdb</span>
+        <span>brw</span>
+        <span>pox</span>
+    </div>
+    <script src="ijk.js"></script>
+    <script>
+        var p = ijk("p.foo");
+        var span = ijk(".array-test span");
+        var span_ary = ["Java","JavaScript","ActionScript"];
+
+        p.text("Hi friends");
+        span.text(span_ary);
+    </script>
+</body>
+</html>
